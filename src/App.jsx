@@ -259,7 +259,7 @@ function App() {
             <a href="#projects">Projects</a>
             <a href="#experience">Experience</a>
             <a href="#organization">Organization</a>
-            <a href="#contact" className="button small">Contact</a>
+            <a href="#resume" className="button small">Resume</a>
           </nav>
           <button
             className="theme-toggle"
@@ -493,43 +493,22 @@ function App() {
       </section>
 
       {/* Certificates section removed per request */}
-
-      <section id="contact" className="section">
+      <section id="resume" className="section alt">
         <div className="container two-col">
           <div>
-            <p className="section-kicker">Get In Touch</p>
-            <h2 className="section-title">
-              <span>Get</span> In Touch
-            </h2>
-            <p>
-              Tertarik kolaborasi atau proyek baru? Mari berdiskusi tentang solusi
-              digital yang berdampak.
-            </p>
-            <div className="contact-info">
-              <p>Email: adar.sarx@mail.com</p>
-              <p>LinkedIn: linkedin.com/in/adarsarx</p>
-              <p>Medium: medium.com/@adar.sarx</p>
-              <p>GitHub: github.com/adarsarx</p>
-              <p>Location: Jakarta, Indonesia</p>
+            <p className="section-kicker">Resume</p>
+            <h2 className="section-title"><span>Resume</span> & Download</h2>
+            <p>Unduh CV saya untuk ringkasan pengalaman, pendidikan, dan skill.</p>
+            <a href="/CV_Adar.pdf" className="button primary" download>Download CV</a>
+          </div>
+          <div className="muted">
+            <p>Prefer contact? Email <a href="mailto:adar.sarx@mail.com">adar.sarx@mail.com</a></p>
+            <div className="hero-socials">
+              <a className="icon-pill" href="https://github.com/AdarSarx" target="_blank" rel="noopener noreferrer">gh</a>
+              <a className="icon-pill" href="https://medium.com/@adar.sarx" target="_blank" rel="noopener noreferrer">md</a>
+              <a className="icon-pill" href="https://www.instagram.com/adar_sarx" target="_blank" rel="noopener noreferrer">ig</a>
             </div>
           </div>
-          <form className="card contact-form">
-            <label>
-              Full Name
-              <input type="text" placeholder="Your name" required />
-            </label>
-            <label>
-              Email Address
-              <input type="email" placeholder="you@email.com" required />
-            </label>
-            <label>
-              Message
-              <textarea rows="4" placeholder="Tell me about your project" />
-            </label>
-            <button type="submit" className="button primary">
-              Send Message
-            </button>
-          </form>
         </div>
       </section>
 
@@ -538,7 +517,7 @@ function App() {
           <p>© 2026 Adar Sarx Christian Firdaus Junior. All rights reserved.</p>
           <div className="footer-links">
             <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+            <a href="#resume">Resume</a>
             <a href="#about">About</a>
           </div>
         </div>
